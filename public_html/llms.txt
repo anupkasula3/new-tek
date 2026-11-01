@@ -1,0 +1,199 @@
+# Himalayan Bespoke (himalayantrekking.com)
+
+> Himalayan Bespoke is a trekking and tour company for Nepal, Bhutan and Tibet. The site sells guided treks, tours, peak climbing, helicopter tours and Kailash Mansarovar Yatra trips, and publishes travel guides and articles about the Himalayas, Everest and Kailash.
+
+Notes for AI assistants:
+- Each trip has its own page. Use the trip page for details such as itinerary, price and dates.
+- For bookings or custom trips, send people to the Plan a trip or Contact us page.
+- Prices, dates and permit rules change, so check the live page before quoting them.
+
+## Company and booking
+- [Home](https://himalayantrekking.com/)
+- [About us](https://himalayantrekking.com/page/about-company)
+- [Why choose us](https://himalayantrekking.com/page/why-choose-us)
+- [Our team](https://himalayantrekking.com/page/our-working-team)
+- [Legal documents](https://himalayantrekking.com/page/legal-documents)
+- [Contact us](https://himalayantrekking.com/page/contact-us)
+- [Plan a trip](https://himalayantrekking.com/plan-trip)
+- [Fixed departures](https://himalayantrekking.com/departures)
+- [Reviews](https://himalayantrekking.com/reviews)
+
+## Nepal
+- [Nepal travel](https://himalayantrekking.com/destination/nepal)
+- [Nepal tour packages](https://himalayantrekking.com/nepal/nepal-tour-packages)
+- [Nepal family tours](https://himalayantrekking.com/nepal/nepal-family-tours)
+- [Pokhara day tour](https://himalayantrekking.com/nepal/pokhara-day-tour)
+- [Kathmandu day tours](https://himalayantrekking.com/nepal/kathmandu-day-tours)
+- [Jungle safari in Nepal](https://himalayantrekking.com/nepal/jungle-safari-in-nepal)
+- [Peak climbing in Nepal](https://himalayantrekking.com/nepal/peak-climbing)
+
+## Bhutan
+- [Bhutan travel](https://himalayantrekking.com/destination/bhutan)
+- [Bhutan tour packages](https://himalayantrekking.com/bhutan/bhutan-tour)
+
+## Tibet
+- [Tibet travel](https://himalayantrekking.com/destination/tibet)
+- [Kailash tour packages from Nepal](https://himalayantrekking.com/tibet/kailash-mansarovar-tour)
+- [Tibet tour packages](https://himalayantrekking.com/tibet/tibet-tour)
+
+## Himalayas
+- [Himalayan tours and travels](https://himalayantrekking.com/destination/himalayas)
+
+## Trekking regions and trek styles
+- [Everest region treks](https://himalayantrekking.com/trekking/everest-region-treks)
+- [Annapurna region treks](https://himalayantrekking.com/trekking/annapurna-region-treks)
+- [Manaslu region treks](https://himalayantrekking.com/trekking/manaslu-region-treks)
+- [Mustang trek](https://himalayantrekking.com/trekking/mustang-region-trek)
+- [Manang trek](https://himalayantrekking.com/trekking/manang-region-trek)
+- [Langtang region treks](https://himalayantrekking.com/trekking/langtang-region-treks)
+- [Makalu region trek](https://himalayantrekking.com/trekking/makalu-region-trek)
+- [Dolpo trek](https://himalayantrekking.com/trekking/dolpo-region-trek)
+- [Kanchenjunga region trek](https://himalayantrekking.com/trekking/kanchenjunga-region-trek)
+- [Challenging treks in Nepal](https://himalayantrekking.com/trekking/challenging-treks-in-nepal)
+- [Family treks in Nepal](https://himalayantrekking.com/trekking/family-treks-in-nepal)
+
+## Luxury trips and helicopter tours
+- [Helicopter tours in Nepal](https://himalayantrekking.com/luxury/helicopter-tours-in-nepal)
+- [Luxury travel in Nepal](https://himalayantrekking.com/luxury/luxury-tours-in-nepal)
+- [Luxury treks in Nepal](https://himalayantrekking.com/luxury/luxury-treks-in-nepal)
+
+## Trek region guides
+- [Everest trek guide](https://himalayantrekking.com/guide/everest-trek-guide)
+- [Annapurna trek guide](https://himalayantrekking.com/guide/annapurna-trek-guide)
+- [Manaslu trek guide](https://himalayantrekking.com/guide/manaslu-trek-guide)
+- [Langtang trek guide](https://himalayantrekking.com/guide/langtang-trek-guide)
+
+## Everest region treks, climbs and flights
+- [Everest Base Camp trek](https://himalayantrekking.com/everest-base-camp-trek)
+- [Luxury Namche Bazaar trek](https://himalayantrekking.com/luxury-trek-to-namche-bazaar)
+- [Gokyo Lake trek](https://himalayantrekking.com/gokyo-lake-trek)
+- [Everest Base Camp trek with helicopter return](https://himalayantrekking.com/everest-base-camp-trek-and-helicopter-return)
+- [Gokyo Lakes to Everest Base Camp trek](https://himalayantrekking.com/gokyo-lake-to-everest-base-camp-trek)
+- [Everest Three High Passes trek](https://himalayantrekking.com/everest-high-pass-trek)
+- [VIP Everest Base Camp trek](https://himalayantrekking.com/luxury-everest-base-camp-trek-for-vvip)
+- [Everest family trek](https://himalayantrekking.com/everest-trek-for-family)
+- [Luxury Everest Base Camp trek](https://himalayantrekking.com/luxury-everest-base-camp-trek)
+- [Everest Base Camp Cho La Pass Gokyo trek](https://himalayantrekking.com/everest-base-camp-chola-pass-gokyo-trek)
+- [Mera Peak climbing](https://himalayantrekking.com/mera-peak-climbing)
+- [Island Peak climbing with Everest Base Camp](https://himalayantrekking.com/island-peak-climbing-with-everest-base-camp-trek)
+- [Everest mountain flight](https://himalayantrekking.com/everest-flight)
+- [Everest Base Camp helicopter tour](https://himalayantrekking.com/everest-base-camp-helicopter-tour)
+- [Ama Dablam expedition](https://himalayantrekking.com/ama-dablam-climb)
+- [Lobuche East Peak climbing](https://himalayantrekking.com/lobuche-east-peak-climbing)
+- [Everest expedition](https://himalayantrekking.com/expedition-everest)
+- [Everest view luxury trek with Chitwan safari](https://himalayantrekking.com/everest-view-luxury-trek-chitwan-jungle-safari)
+- [Easy luxury Everest trek](https://himalayantrekking.com/everest-easy-luxury-trek)
+- [Everest luxury lodge trek with helicopter return](https://himalayantrekking.com/everest-luxury-lodge-trek-with-ebc-helicopter-return)
+
+## Annapurna and Mustang treks
+- [Annapurna Base Camp short trek](https://himalayantrekking.com/annapurna-base-camp-short-trek)
+- [Annapurna Base Camp trek](https://himalayantrekking.com/annapurna-base-camp-trek)
+- [Ghorepani Poon Hill trek](https://himalayantrekking.com/ghorepani-poonhill-trek)
+- [Annapurna Circuit trek](https://himalayantrekking.com/annapurna-circuit-trek)
+- [Annapurna luxury trek](https://himalayantrekking.com/annapurna-luxury-trek)
+- [Annapurna trek with Chitwan safari](https://himalayantrekking.com/annapurna-trek-with-chitwan-jungle-safari)
+- [Mardi Himal trek](https://himalayantrekking.com/mardi-himal-trek)
+- [Khopra Ridge trek](https://himalayantrekking.com/khopra-ridge-trek)
+- [Upper Mustang jeep tour](https://himalayantrekking.com/upper-mustang-jeep-tour)
+- [Tiji Festival trek Mustang](https://himalayantrekking.com/mustang-tiji-festival-trek)
+- [Muktinath helicopter tour](https://himalayantrekking.com/muktinath-yatra-by-helicopter)
+- [Poon Hill trek 4 days](https://himalayantrekking.com/poon-hill-trek)
+- [Easy Annapurna hike](https://himalayantrekking.com/annapurna-easy-hike)
+- [Annapurna view luxury trek](https://himalayantrekking.com/annapurna-view-luxury-trek)
+
+## Manaslu, Langtang, Makalu and Kanchenjunga treks
+- [Manaslu Circuit trek](https://himalayantrekking.com/manaslu-circuit-trek)
+- [Tsum Valley and Manaslu trek](https://himalayantrekking.com/tsum-valley-and-manaslu-trek)
+- [Tsum Valley trek](https://himalayantrekking.com/tsum-valley-trek)
+- [Langtang Valley trek](https://himalayantrekking.com/langtang-valley-trek)
+- [Gosainkunda Lake trek](https://himalayantrekking.com/gosainkunda-lake-trek)
+- [Makalu Base Camp trek](https://himalayantrekking.com/makalu-base-camp-trek)
+- [Kanchenjunga Base Camp trek](https://himalayantrekking.com/kanchenjunga-base-camp-trek)
+
+## Nepal tours, day tours and jungle safaris
+- [Nepal luxury tour](https://himalayantrekking.com/nepal-luxury-tour)
+- [Nepal highlights tour](https://himalayantrekking.com/nepal-highlights-tour)
+- [Kathmandu Nagarkot tour](https://himalayantrekking.com/kathmandu-nagarkot-tour)
+- [Nepal heritage tour](https://himalayantrekking.com/nepal-heritage-tour)
+- [8 day Nepal tour](https://himalayantrekking.com/best-nepal-tour)
+- [Buddhist tour in Nepal](https://himalayantrekking.com/nepal-buddhist-tour)
+- [Hindu pilgrimage tour Nepal](https://himalayantrekking.com/hindu-pilgrimage-tour-in-nepal)
+- [Nepal family adventure tour](https://himalayantrekking.com/nepal-family-adventure)
+- [Photography tour in Nepal](https://himalayantrekking.com/photography-tour-in-nepal)
+- [Muslim friendly tour Nepal](https://himalayantrekking.com/nepal-muslim-tour)
+- [Kathmandu Pokhara tour](https://himalayantrekking.com/kathmandu-pokhara-tour)
+- [Kathmandu Pokhara Chitwan tour](https://himalayantrekking.com/kathmandu-pokhara-chitwan-tour)
+- [Student tour in Nepal](https://himalayantrekking.com/student-tour-in-nepal)
+- [Bhaktapur day tour](https://himalayantrekking.com/bhaktapur-day-tour)
+- [Nagarkot day tour](https://himalayantrekking.com/nagarkot-day-tour)
+- [Chitwan jungle safari](https://himalayantrekking.com/chitwan-jungle-safari)
+- [Bardia jungle safari](https://himalayantrekking.com/bardia-jungle-safari)
+- [Luxury Kathmandu Nagarkot Chitwan tour](https://himalayantrekking.com/luxury-kathmandu-nagarkot-chitwan)
+- [Kathmandu luxury tour](https://himalayantrekking.com/kathmandu-luxury-tour)
+- [Luxury Kathmandu Nagarkot Pokhara tour](https://himalayantrekking.com/kathmandu-nagarkot-pokhara-luxury-tour)
+- [Nepal tour extension](https://himalayantrekking.com/nepal-tour-extension)
+
+## Bhutan trips
+- [8 day Bhutan tour](https://himalayantrekking.com/best-bhutan-tour)
+- [Bhutan tour with day hikes](https://himalayantrekking.com/bhutan-tour-with-day-hikes)
+- [Bhutan tour 4 nights 5 days](https://himalayantrekking.com/4-nights-5-days-bhutan-tour)
+- [Bhutan highlights tour](https://himalayantrekking.com/bhutan-highlights-tour)
+- [First time Bhutan tour](https://himalayantrekking.com/first-time-bhutan-tour)
+- [Druk Path trek](https://himalayantrekking.com/druk-path-trek)
+- [Bhutan short tour](https://himalayantrekking.com/bhutan-short-tour)
+- [Bhutan budget tour](https://himalayantrekking.com/bhutan-budget-tour)
+- [Jomolhari Lingshi trek](https://himalayantrekking.com/jomolhari-lingshi-trek)
+
+## Tibet, Kailash and multi-country trips
+- [Nepal Bhutan tour](https://himalayantrekking.com/nepal-bhutan-tour)
+- [Nepal Tibet Bhutan tour](https://himalayantrekking.com/nepal-tibet-bhutan-tour)
+- [Kailash Mansarovar helicopter tour](https://himalayantrekking.com/kailash-helicopter-tour)
+- [Kailash Mansarovar Yatra 2026](https://himalayantrekking.com/kailash-mansarovar-yatra)
+- [Kailash Mansarovar via Simikot](https://himalayantrekking.com/kailash-trek-via-simikot-nepal)
+- [Lhasa to Kailash tour](https://himalayantrekking.com/lhasa-to-kailash-tour)
+- [Saga Dawa festival tour](https://himalayantrekking.com/saga-dawa-festival-tour)
+- [Kailash tour on Vesak day](https://himalayantrekking.com/kailash-tour-on-vesak-day)
+- [Kathmandu to Lhasa tour](https://himalayantrekking.com/kathmandu-to-lhasa-tour)
+- [Lhasa to Everest Base Camp overland tour](https://himalayantrekking.com/lhasa-everest-base-camp-overland-jeep-tour)
+- [Nepal Tibet tour](https://himalayantrekking.com/nepal-tibet-tour)
+- [China Tibet Nepal Bhutan tour](https://himalayantrekking.com/china-tibet-nepal-bhutan-tour)
+
+## Travel guides
+- [Nepal visa on arrival](https://himalayantrekking.com/guide/nepal-visa-information)
+- [Trekking packing list Nepal](https://himalayantrekking.com/guide/packing-list-for-trekking)
+- [Bhutan visa](https://himalayantrekking.com/guide/bhutan-visa)
+- [Tibet visa for indians](https://himalayantrekking.com/guide/tibet-visa)
+- [Fitness training for trekking](https://himalayantrekking.com/guide/fitness-training)
+- [Nepal trekking tips](https://himalayantrekking.com/guide/nepal-trekking-tips)
+
+## Popular articles
+- [Rob Hall death 1996 Everest disaster](https://himalayantrekking.com/blog/rob-hall-death-1996-everest-disaster)
+- [Why Francys Arsentiev titled as Mount Everest sleeping beauty](https://himalayantrekking.com/blog/why-francys-arsentiev-titled-as-mount-everest-sleeping-beauty)
+- [How many dead bodies are on Mount Everest](https://himalayantrekking.com/blog/how-many-dead-bodies-are-on-mount-everest)
+- [Mount Kailash mystery 20 unknown facts](https://himalayantrekking.com/blog/mount-kailash-mystery-20-unknown-facts)
+- [Kumari the living goddess](https://himalayantrekking.com/blog/kumari-the-living-goddess)
+- [Can a helicopter fly to the top of Mount Everest](https://himalayantrekking.com/blog/can-a-helicopter-fly-to-the-top-of-mount-everest)
+- [15 fascinating Mount Everest facts](https://himalayantrekking.com/blog/15-fascinating-mount-everest-facts)
+- [How many people have died on Mount Everest list of Everest landmarks](https://himalayantrekking.com/blog/how-many-people-have-died-on-mount-everest-list-of-everest-landmarks)
+- [What is the height of the Mount Everest](https://himalayantrekking.com/blog/what-is-the-height-of-the-mount-everest)
+- [Mount Everest death rate](https://himalayantrekking.com/blog/mount-everest-death-rate)
+- [List of Mount Everest summiteers 2025](https://himalayantrekking.com/blog/list-of-mount-everest-summiteers-2025)
+- [Mount K2 death rate](https://himalayantrekking.com/blog/mount-k2-death-rate)
+- [Distance of Kailash Mansarovar yatra](https://himalayantrekking.com/blog/distance-of-kailash-mansarovar-yatra)
+- [Why Mount Kailash remains unclimbed](https://himalayantrekking.com/blog/why-mount-kailash-remains-unclimbed)
+- [Visa requirements for Kailash Mansarovar yatra](https://himalayantrekking.com/blog/visa-requirements-for-kailash-mansarovar-yatra)
+- [Burj khalifa vs Mount Everest which is taller](https://himalayantrekking.com/blog/burj-khalifa-vs-mount-everest-which-is-taller)
+- [Best trekking company in Nepal](https://himalayantrekking.com/blog/best-trekking-company-in-nepal)
+- [How many camps are on Mount Everest](https://himalayantrekking.com/blog/how-many-camps-are-on-mount-everest)
+- [Buying and renting trekking gear in Kathmandu](https://himalayantrekking.com/blog/buying-and-renting-trekking-gear-in-kathmandu)
+- [The amazing experience of paragliding in Nepal](https://himalayantrekking.com/blog/the-amazing-experience-of-paragliding-in-nepal)
+- [History on Mount Everest earthquake](https://himalayantrekking.com/blog/history-on-mount-everest-earthquake)
+- [Best places to visit in Kathmandu](https://himalayantrekking.com/blog/best-places-to-visit-in-kathmandu)
+- [Taktsang monastery facts](https://himalayantrekking.com/blog/taktsang-monastery-facts)
+- [Mansarovar lake significance history](https://himalayantrekking.com/blog/mansarovar-lake-significance-history)
+- [Khumbu glacier most dangerous icefall](https://himalayantrekking.com/blog/khumbu-glacier-most-dangerous-icefall)
+
+## Optional
+- [Blog](https://himalayantrekking.com/blog): All travel articles about Nepal, Bhutan, Tibet, Everest and Kailash
+- [Sitemap](https://himalayantrekking.com/sitemap.xml): Full list of pages
+- [Terms and conditions](https://himalayantrekking.com/page/terms-and-conditions)

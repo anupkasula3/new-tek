@@ -1,0 +1,69 @@
+.fi:not(.dark) {
+    .fi-tabs-item {
+        background: #f6f6f6;
+    }
+
+    .fi-tabs-item.fi-active {
+        background: #3399ff3d;
+    }
+}
+
+.fi.dark {
+    .fi-tabs-item {
+        background: #d1d1d1;
+        span{
+            color: #313131;
+        }
+    }
+
+    .fi-tabs-item.fi-active {
+        background: #fff;
+        span{
+            color: #00c;
+        }
+    }
+}
+
+
+
+.fi-page-header-main-ctn {
+    position: relative;
+}
+
+.fi-ac:not(.fi-width-full) {
+    justify-content: flex-end !important;
+}
+
+
+.fi-fo-repeater .fi-fo-repeater-item{
+    position: relative;
+}
+.fi-fo-repeater-item-header{
+    position: absolute;
+    width: 100%;
+}
+.fi-icon-btn.fi-size-sm.fi-ac-icon-btn-action{
+    top: 4px;
+    position: relative;
+    left: -11px;
+    width: 20px;
+}
+.fi-icon-btn.fi-size-sm.fi-ac-icon-btn-action[title="Show password"]{
+    position: static;
+    width: auto;
+}
+
+.fi-icon-btn.fi-size-sm.fi-ac-icon-btn-action svg {
+    width: 16px;
+}
+.fi-icon-btn.fi-size-sm.fi-ac-icon-btn-action[title="Show password"] svg {
+    width: calc(var(--spacing)*8);
+}
+
+.fi-fo-repeater .fi-fo-repeater-item {
+    position: relative;
+    background: #f1f1f1;
+    .fi-fo-repeater-items fi-grid{
+        background: #fff;
+    }
+}

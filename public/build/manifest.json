@@ -1,0 +1,36 @@
+{
+  "_client-CvVonBAA.js": {
+    "file": "assets/client-CvVonBAA.js",
+    "name": "client"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BLwWHKEe.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/admin-sidebar.tsx": {
+    "file": "assets/admin-sidebar-C4TGQ6Qh.js",
+    "name": "admin-sidebar",
+    "src": "resources/js/admin-sidebar.tsx",
+    "isEntry": true,
+    "imports": [
+      "_client-CvVonBAA.js"
+    ]
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-BxiG5trq.js",
+    "name": "app",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "imports": [
+      "_client-CvVonBAA.js"
+    ],
+    "css": [
+      "assets/app-D3A9eU7X.css"
+    ]
+  }
+}

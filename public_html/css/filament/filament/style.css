@@ -1,0 +1,117 @@
+.fi:not(.dark) {
+    .fi-tabs-item {
+        background: #f6f6f6;
+    }
+
+    .fi-tabs-item.fi-active {
+        background: #3399ff3d;
+    }
+}
+
+.fi.dark {
+    .fi-tabs-item {
+        background: #d1d1d1;
+        span{
+            color: #313131;
+        }
+    }
+
+    .fi-tabs-item.fi-active {
+        background: #fff;
+        span{
+            color: #00c;
+        }
+    }
+}
+
+
+
+.fi-page-header-main-ctn {
+    position: relative;
+}
+
+.fi-ac:not(.fi-width-full) {
+    justify-content: flex-end !important;
+}
+
+
+.fi-fo-repeater .fi-fo-repeater-item{
+    position: relative;
+}
+.fi-fo-repeater-item-header{
+    position: absolute;
+    width: 100%;
+}
+.fi-fo-repeater-item-header-start-actions{
+.fi-icon-btn.fi-size-sm.fi-ac-icon-btn-action[title="Move"]{
+    top: 4px;
+    position: relative;
+    left: -11px;
+    width: 20px;
+}
+
+
+.fi-icon-btn.fi-size-sm.fi-ac-icon-btn-action[title="Move"] svg,
+.fi-icon-btn.fi-size-sm.fi-ac-icon-btn-action[title="Delete"] svg
+{
+     width: 16px;
+}
+}
+
+
+.fi-fo-repeater .fi-fo-repeater-item {
+    position: relative;
+    background: #f1f1f1;
+    padding-top: 10px;
+}
+.fi-fo-repeater-item-content {
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.inner-nav-item{
+    margin-left: 1.5rem;
+    .fi-sidebar-item-btn{
+        gap: 0;
+    }
+
+}
+
+.fi-sidebar-item-grouped-border-part-not-first,
+.fi-sidebar-item-grouped-border-part-not-last {
+    display: none !important;
+}
+
+/* Sticky table actions — last cell */
+.fi-ta-table td.fi-ta-cell:last-child {
+    position: sticky !important;
+    right: 0 !important;
+    z-index: 20 !important;
+    /* Light theme: matches Filament's white table row background */
+    background-color: rgb(255, 255, 255) !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.06) !important;
+    box-shadow: -6px 0 12px -4px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Dark theme: matches Filament's dark table row background */
+.fi.dark .fi-ta-table td.fi-ta-cell:last-child {
+    background-color: rgb(24, 24, 27) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.06) !important;
+    box-shadow: -6px 0 12px -4px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Keep header cell sticky too */
+.fi-ta-table th:last-child {
+    position: sticky !important;
+    right: 0 !important;
+    z-index: 21 !important;
+    background-color: rgb(249, 250, 251) !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.06) !important;
+    box-shadow: -6px 0 12px -4px rgba(0, 0, 0, 0.12) !important;
+}
+
+.fi.dark .fi-ta-table th:last-child {
+    background-color: rgb(39, 39, 42) !important;
+    border-left: 1px solid rgba(255, 255, 255, 0.06) !important;
+    box-shadow: -6px 0 12px -4px rgba(0, 0, 0, 0.4) !important;
+}

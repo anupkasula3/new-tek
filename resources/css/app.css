@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+/* ============================================================
+   Sources (Tailwind v4 content scanning)
+   ============================================================ */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+@source '../**/*.tsx';
+@source '../**/*.ts';
+
+/* ============================================================
+   Theme tokens
+   ============================================================ */
+@theme {
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+
+    /* Custom breakpoint: desktop nav at 1200px */
+    --breakpoint-nav: 1200px;
+}
+
+/* ============================================================
+   Global base styles
+   ============================================================ */
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        font-family: var(--font-sans);
+        line-height: 1.6;
+        color: #1a1a2e;
+        background-color: #ffffff;
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #c1c1c1;
+        border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a0a0a0;
+    }
+
+    /* Focus ring */
+    :focus-visible {
+        outline: 2px solid #2563eb;
+        outline-offset: 2px;
+    }
+
+    a {
+        transition: color 0.15s ease-in-out;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Remove arrows from number inputs */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type=number] {
+      -moz-appearance: textfield;
+      appearance: textfield;
+    }
+
+    /* Hide browser default date picker icon */
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        background: transparent;
+        bottom: 0;
+        color: transparent;
+        cursor: pointer;
+        height: auto;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+    }
+}
+
+/* ============================================================
+   Utility classes used across the React SPA
+   ============================================================ */
+@layer utilities {
+    .font-display {
+        /* font-family: var(--font-display); */
+    }
+
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    .fade-in {
+        animation: fadeIn 0.4s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .page-loader {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+        z-index: 9999;
+    }
+}
+
+/* ============================================================
+   Typography Overrides (CMS / Prose content)
+   ============================================================ */
+
+/* ============================================================
+   Typography Overrides (CMS / Prose content)
+   ============================================================ */
+
+/* Specific overrides for .prose container contents to match TinyMCE output */
+@layer components {
+    .prose {
+        max-width: none !important;
+        /* color: inherit !important; */
+    }
+
+    /* Headings */
+    .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+        color: #111827;
+        /* font-family: var(--font-display); */
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+        line-height: 1.2;
+    }
+
+    .prose h1 { font-size: 2.25rem; font-weight: 800; }
+    .prose h2 { font-size: 1.875rem; font-weight: 700; border-bottom: 1px solid #f3f4f6; padding-bottom: 0.3em; }
+    .prose h3 { font-size: 1.5rem; font-weight: 700; }
+    .prose h4 { font-size: 1.25rem; font-weight: 700; }
+
+    /* Paragraphs and Spacing */
+    .prose p {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        line-height: 1.7;
+    }
+
+    /* Lists - Crucial for "What You See Is What You Get" */
+    .prose ul {
+        list-style-type: disc !important;
+        padding-left: 1.5rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .prose ol {
+        list-style-type: decimal !important;
+        padding-left: 1.5rem !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .prose li {
+        margin-top: 0.5em !important;
+        margin-bottom: 0.5em !important;
+        padding-left: 0.375em !important;
+    }
+
+    /* Tables */
+    .prose table {
+        width: 100% !important;
+        border-collapse: collapse !important;
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+        font-size: 0.875rem !important;
+    }
+
+    .prose thead th {
+        background-color: #f9fafb !important;
+        border: 1px solid #e5e7eb !important;
+        padding: 0.75rem !important;
+        text-align: left !important;
+        font-weight: 600 !important;
+    }
+
+    .prose td, .prose th {
+        border: 1px solid #e5e7eb !important;
+        padding: 0.75rem !important;
+    }
+
+    .prose tr:nth-child(even) {
+        background-color: #fcfcfc;
+    }
+
+    /* Media */
+    .prose img {
+        /* width: 100%; */
+        border-radius: 1rem;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        display: block;
+    }
+
+    /* Links */
+    .prose a {
+        color: #0066FF !important;
+        text-decoration: underline !important;
+        font-weight: 500 !important;
+    }
+
+    .prose a:hover {
+        color: #06B6D4 !important;
+    }
+
+    /* Blockquotes - Enhanced with gradient and icon */
+    .prose blockquote {
+        position: relative;
+        border-left: 4px solid #0066FF !important;
+        background: #eff6ff !important; /* purple-50 to blue-50 */
+        padding: 2.5rem !important;
+        border-radius: 0 1.25rem 1.25rem 0 !important;
+        margin: 3.5rem 0 !important;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        border-top: none !important;
+        border-right: none !important;
+        border-bottom: none !important;
+        font-style: italic !important;
+    }
+
+
+
+   
+
+   
+}
+/* ============================================================
+   Booking Banner Styles (Premium)
+   ============================================================ */
+.dc-pkg-banner {
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    background-size: cover;
+    color: white;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.dc-pkg-banner-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.dc-pkg-banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+    z-index: 1;
+}
+
+.dc-pkg-banner-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+}
+
+.dc-pkg-banner-eyebrow {
+    display: inline-block;
+    font-size: 0.625rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #3b82f6;
+    margin-bottom: 0.4rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.dc-pkg-banner-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.dc-pkg-banner-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.dc-tag {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 99px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: #ffffff;
+    white-space: nowrap;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.dc-tag--price {
+    background: rgba(59, 130, 246, 0.3); /* Soft Blue */
+    border-color: rgba(59, 130, 246, 0.4);
+    color: #eff6ff;
+}
+
+.dc-tag--deposit {
+    background: rgba(34, 197, 94, 0.3); /* Soft Green */
+    border-color: rgba(34, 197, 94, 0.4);
+    color: #f0fdf4;
+}
+
+.dc-pkg-banner-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dc-pkg-banner-link:hover {
+    color: white;
+    transform: translateX(6px);
+}
+
+@media (max-width: 640px) {
+    .dc-pkg-banner {
+        padding: 1.5rem;
+    }
+    .dc-pkg-banner-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* ============================================================
+   Skeleton Loading Animation
+   ============================================================ */
+@keyframes dc-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.dc-skeleton {
+    background: #e2e8f0;
+    animation: dc-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    border-radius: 0.5rem;
+}
+
+.dc-skeleton-banner {
+    height: 220px;
+    width: 100%;
+    border-radius: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.dc-skeleton-title {
+    height: 2.5rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.dc-skeleton-tag {
+    height: 2rem;
+    width: 100px;
+    border-radius: 99px;
+    display: inline-block;
+}
+
+.dc-skeleton-field {
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.dc-skeleton-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.dc-skeleton-hero {
+    height: 80vh;
+    width: 100%;
+}
+
+.dc-skeleton-section {
+    padding: 5rem 0;
+}
+
+.dc-skeleton-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.dc-skeleton-trip-card {
+    height: 400px;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.dc-skeleton-text {
+    height: 1rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.dc-skeleton-text-half {
+    width: 50%;
+}
+
+.dc-skeleton-masonry {
+    column-count: 3;
+    column-gap: 1.5rem;
+}
+@media (max-width: 1024px) {
+    .dc-skeleton-masonry { column-count: 2; }
+}
+@media (max-width: 640px) {
+    .dc-skeleton-masonry { column-count: 1; }
+}
+
+.dc-skeleton-avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.dc-skeleton-row {
+    height: 1.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.dc-skeleton-box {
+    height: 200px;
+    width: 100%;
+    border-radius: 1rem;
+}
