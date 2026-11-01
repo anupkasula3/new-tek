@@ -125,7 +125,7 @@ export function Footer() {
                     {/* Contact Info */}
                     <div>
                         <h4 className="text-lg font-semibold mb-6">
-                            Contacts Us
+                            Contact Us
                         </h4>
                         <ul className="space-y-4 text-gray-400">
                             {settings?.address && (
