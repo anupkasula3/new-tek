@@ -12,10 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('package_includes', function (Blueprint $table) {
-            \Illuminate\Support\Facades\DB::statement('ALTER TABLE package_includes MODIFY title TEXT NULL');
+            $table->text('title')->nullable()->change();
         });
         Schema::table('package_excludes', function (Blueprint $table) {
-            \Illuminate\Support\Facades\DB::statement('ALTER TABLE package_excludes MODIFY title TEXT NULL');
+            $table->text('title')->nullable()->change();
         });
     }
 

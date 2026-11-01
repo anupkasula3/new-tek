@@ -11,6 +11,7 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/js/app.tsx',
             ],
+            hotFile: 'public_html/hot',
             refresh: true,
         }),
         tailwindcss(),
